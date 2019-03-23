@@ -118,11 +118,11 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j7xelte/proprietary/vendor/lib/vendor.samsung.hardware.radio.channel@1.0_vendor.so:system/vendor/lib/vendor.samsung.hardware.radio.channel@1.0_vendor.so \
     vendor/samsung/j7xelte/proprietary/vendor/lib/vendor.samsung.hardware.radio.secoemhook@1.0_vendor.so:system/vendor/lib/vendor.samsung.hardware.radio.secoemhook@1.0_vendor.so \
     vendor/samsung/j7xelte/proprietary/vendor/lib/vendor.samsung.hardware.radio@1.1_vendor.so:system/vendor/lib/vendor.samsung.hardware.radio@1.1_vendor.so
-    
+
 # Create Mali links for Vulkan and OpenCL
 PRODUCT_PACKAGES += libGLES_mali
 
-##BSP
+## BSP
 PRODUCT_COPY_FILES += \
     vendor/samsung/j7xelte/proprietary/lib/hw/hwcomposer.exynos5.so:system/lib/hw/hwcomposer.exynos5.so \
     vendor/samsung/j7xelte/proprietary/lib/hw/memtrack.exynos5.so:system/lib/hw/memtrack.exynos5.so \
@@ -138,3 +138,9 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j7xelte/proprietary/lib/libexynosutils.so:system/lib/libexynosutils.so \
     vendor/samsung/j7xelte/proprietary/lib/libexynosv4l2.so:system/lib/libexynosv4l2.so \
     vendor/samsung/j7xelte/proprietary/lib/libhwjpeg.so:system/lib/libhwjpeg.so
+
+# Bluetooth
+PRODUCT_COPY_FILES += \
+    vendor/samsung/j7xelte/proprietary/lib/libaptX_encoder.so:system/lib/libaptX_encoder.so \
+    vendor/samsung/j7xelte/proprietary/lib/libaptXHD_encoder.so:system/lib/libaptXHD_encoder.so \
+    vendor/samsung/j7xelte/proprietary/lib/libldacBT_enc.so:system/lib/libldacBT_enc.so \
