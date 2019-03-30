@@ -383,9 +383,8 @@ Telenor BG"Telenor
 29364T-2"T-2
 
 29370TELEMACH"TELEMACH
-
-29401
-Telekom MK"TMO MK
+
+29401T-Mobile MK"TMO MK
 
 29403Vip MKD"Vip MKD
 
@@ -402,8 +401,6 @@ SwisscomFL"Swiss FL
 Telekom.me"T.me
 
 29703MTEL"MTEL
-
-302130Xplore"Xplore
 
 302220TELUS"TELUS
 
@@ -490,8 +487,8 @@ US PLATEAU"PLATEAU
 310310T-Mobile"T-Mobile
 #
 310320USA - CellularOne"Cell
-#
-310340Limitless Mobile"LMUSA
+
+310340WestLink"WestLink
  
 310370DOCOMO PACIFIC"DPAC
 
@@ -562,8 +559,6 @@ US PLATEAU"PLATEAU
 311540USA Proximiti"ProxMo
 
 311580U.S.Cellular"USCC
-#
-311600Limitless Mobile"LMUSA
 
 311630C Spire"C Spire
 
@@ -589,8 +584,6 @@ CoverageCo"CvgCo
 312280Pioneer"CNP
 '
 312290Strata Networks USA"Strata
-&
-312420Nex-Tech Wireless USA"NTW
 
 312480Nemont"Nemont
  
@@ -628,8 +621,8 @@ NetGenuity"NetGenui
 342600FLOW"FLOW
 
 342750DIGICEL"DIGICEL
-
-34430	APUA inet"inet
+!
+344030APUA imobile"imobile
 
 344920FLOW"FLOW
 
@@ -1625,11 +1618,10 @@ TELECEL ML"TELECEL
 61801LBR Lonestar Cell"LoneStar
  
 61804Novafone 4G"Novafone
-
-61807
-Orange LBR"Orange L
-
-61901	Orange SL"OrangeSL
+#
+61807Orange Liberia"Orange L
+
+61901Airtel"Airtel
 
 61905Africell"Africell
 
@@ -1797,8 +1789,8 @@ VodaCom-MZ"VodaCom
 64503ZAMTEL"ZAMTEL
 
 64601Airtel"Airtel
-
-64602Orange"Orange
+
+64602	Orange MG"OrangeMG
 
 64604TELMA"TELMA
 
@@ -1850,10 +1842,8 @@ TELECEL ZW"TELECEL
 
 65501
 VodaCom-SA"Vodacom
-
-65502	Telkom SA"Telkom
-
-65505	Telkom SA"Telkom
+
+65502TelkomSA"TelkomSA
 
 65507Cell C"Cell C
 
@@ -2048,4 +2038,4 @@ AeroMobile"AeroMob
 
 90146	Telecom26"T26
 
-90150EchoStar Mobile"EML*Published TS25 Database 03 Sepetember 2018
+90150EchoStar Mobile"EML$Published TS25 Database 25 June 2018

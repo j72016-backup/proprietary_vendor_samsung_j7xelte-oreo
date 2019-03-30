@@ -79,15 +79,15 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j7xelte/proprietary/vendor/bin/mcDriverDaemon:system/vendor/bin/mcDriverDaemon \
     vendor/samsung/j7xelte/proprietary/vendor/etc/gnss/ca.pem:system/vendor/etc/gnss/ca.pem \
     vendor/samsung/j7xelte/proprietary/vendor/etc/init/vendor.samsung.hardware.gnss@1.0-service.rc:system/vendor/etc/init/vendor.samsung.hardware.gnss@1.0-service.rc \
-    vendor/samsung/j7xelte/proprietary/vendor/etc/plmn_delta.bin:system/vendor/etc/plmn_delta.bin \
-    vendor/samsung/j7xelte/proprietary/vendor/etc/plmn_delta_hktw.bin:system/vendor/etc/plmn_delta_hktw.bin \
-    vendor/samsung/j7xelte/proprietary/vendor/etc/plmn_se13.bin:system/vendor/etc/plmn_se13.bin \
-    vendor/samsung/j7xelte/proprietary/vendor/etc/wifi/bcmdhd_apsta.bin:system/vendor/etc/wifi/bcmdhd_apsta.bin \
-    vendor/samsung/j7xelte/proprietary/vendor/etc/wifi/bcmdhd_mfg.bin:system/vendor/etc/wifi/bcmdhd_mfg.bin \
-    vendor/samsung/j7xelte/proprietary/vendor/etc/wifi/bcmdhd_sta.bin:system/vendor/etc/wifi/bcmdhd_sta.bin \
-    vendor/samsung/j7xelte/proprietary/vendor/etc/wifi/cred.conf:system/vendor/etc/wifi/cred.conf \
-    vendor/samsung/j7xelte/proprietary/vendor/etc/wifi/nvram.txt:system/vendor/etc/wifi/nvram.txt \
-    vendor/samsung/j7xelte/proprietary/vendor/etc/wifi/wpa_supplicant.conf:system/vendor/etc/wifi/wpa_supplicant.conf \
+    vendor/samsung/j7xelte/proprietary/etc/plmn_delta.bin:system/etc/plmn_delta.bin \
+    vendor/samsung/j7xelte/proprietary/etc/plmn_delta_hktw.bin:system/etc/plmn_delta_hktw.bin \
+    vendor/samsung/j7xelte/proprietary/etc/plmn_se13.bin:system/etc/plmn_se13.bin \
+    vendor/samsung/j7xelte/proprietary/etc/wifi/bcmdhd_apsta.bin:system/etc/wifi/bcmdhd_apsta.bin \
+    vendor/samsung/j7xelte/proprietary/etc/wifi/bcmdhd_mfg.bin:system/etc/wifi/bcmdhd_mfg.bin \
+    vendor/samsung/j7xelte/proprietary/etc/wifi/bcmdhd_sta.bin:system/etc/wifi/bcmdhd_sta.bin \
+    vendor/samsung/j7xelte/proprietary/etc/wifi/cred.conf:system/etc/wifi/cred.conf \
+    vendor/samsung/j7xelte/proprietary/etc/wifi/nvram_net.txt:system/etc/wifi/nvram_net.txt \
+    vendor/samsung/j7xelte/proprietary/etc/wifi/nvram_mfg.txt:system/etc/wifi/nvram_mfg.txt \
     vendor/samsung/j7xelte/proprietary/vendor/firmware/bcm43438A1_V0068.0286.hcd:system/vendor/firmware/bcm43438A1_V0068.0286.hcd \
     vendor/samsung/j7xelte/proprietary/vendor/firmware/fimc_is_lib.bin:system/vendor/firmware/fimc_is_lib.bin \
     vendor/samsung/j7xelte/proprietary/vendor/firmware/mfc_fw.bin:system/vendor/firmware/mfc_fw.bin \
