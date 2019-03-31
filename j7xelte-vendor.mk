@@ -1,3 +1,4 @@
+    
 # Copyright (C) 2018 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
@@ -73,12 +74,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j7xelte/proprietary/vendor/app/mcRegistry/ffffffffd0000000000000000000000a.tlbin:system/vendor/app/mcRegistry/ffffffffd0000000000000000000000a.tlbin \
     vendor/samsung/j7xelte/proprietary/vendor/app/mcRegistry/ffffffffd0000000000000000000000e.tlbin:system/vendor/app/mcRegistry/ffffffffd0000000000000000000000e.tlbin \
     vendor/samsung/j7xelte/proprietary/vendor/app/mcRegistry/ffffffffd00000000000000000000016.tlbin:system/vendor/app/mcRegistry/ffffffffd00000000000000000000016.tlbin \
-    vendor/samsung/j7xelte/proprietary/vendor/bin/hw/gpsd:system/vendor/bin/hw/gpsd \
     vendor/samsung/j7xelte/proprietary/vendor/bin/hw/rild:system/vendor/bin/hw/rild \
-    vendor/samsung/j7xelte/proprietary/vendor/bin/hw/vendor.samsung.hardware.gnss@1.0-service:system/vendor/bin/hw/vendor.samsung.hardware.gnss@1.0-service \
     vendor/samsung/j7xelte/proprietary/vendor/bin/mcDriverDaemon:system/vendor/bin/mcDriverDaemon \
-    vendor/samsung/j7xelte/proprietary/vendor/etc/gnss/ca.pem:system/vendor/etc/gnss/ca.pem \
-    vendor/samsung/j7xelte/proprietary/vendor/etc/init/vendor.samsung.hardware.gnss@1.0-service.rc:system/vendor/etc/init/vendor.samsung.hardware.gnss@1.0-service.rc \
     vendor/samsung/j7xelte/proprietary/etc/plmn_delta.bin:system/etc/plmn_delta.bin \
     vendor/samsung/j7xelte/proprietary/etc/plmn_delta_hktw.bin:system/etc/plmn_delta_hktw.bin \
     vendor/samsung/j7xelte/proprietary/etc/plmn_se13.bin:system/etc/plmn_se13.bin \
@@ -94,9 +91,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j7xelte/proprietary/vendor/firmware/setfile_4h5yc.bin:system/vendor/firmware/setfile_4h5yc.bin \
     vendor/samsung/j7xelte/proprietary/vendor/firmware/setfile_imx258.bin:system/vendor/firmware/setfile_imx258.bin \
     vendor/samsung/j7xelte/proprietary/vendor/lib/egl/libGLES_mali.so:system/vendor/lib/egl/libGLES_mali.so \
-    vendor/samsung/j7xelte/proprietary/vendor/lib/hw/gps.default.so:system/vendor/lib/hw/gps.default.so \
     vendor/samsung/j7xelte/proprietary/vendor/lib/hw/sensors.universal7870.so:system/vendor/lib/hw/sensors.universal7870.so \
-    vendor/samsung/j7xelte/proprietary/vendor/lib/hw/vendor.samsung.hardware.gnss@1.0-impl.so:system/vendor/lib/hw/vendor.samsung.hardware.gnss@1.0-impl.so \
     vendor/samsung/j7xelte/proprietary/lib/libMcClient.so:system/lib/libMcClient.so \
     vendor/samsung/j7xelte/proprietary/lib/libMcRegistry.so:system/lib/libMcRegistry.so \
     vendor/samsung/j7xelte/proprietary/vendor/lib/libOpenCv.so:system/vendor/lib/libOpenCv.so \
@@ -112,13 +107,13 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j7xelte/proprietary/vendor/lib/libsomp.so:system/vendor/lib/libsomp.so \
     vendor/samsung/j7xelte/proprietary/vendor/lib/libstainkiller.so:system/vendor/lib/libstainkiller.so \
     vendor/samsung/j7xelte/proprietary/vendor/lib/libvndsecril-client.so:system/vendor/lib/libvndsecril-client.so \
-    vendor/samsung/j7xelte/proprietary/vendor/lib/libwrappergps.so:system/vendor/lib/libwrappergps.so \
     vendor/samsung/j7xelte/proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib/mediadrm/libdrmclearkeyplugin.so \
     vendor/samsung/j7xelte/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
-    vendor/samsung/j7xelte/proprietary/vendor/lib/vendor.samsung.hardware.gnss@1.0.so:system/vendor/lib/vendor.samsung.hardware.gnss@1.0.so \
     vendor/samsung/j7xelte/proprietary/vendor/lib/vendor.samsung.hardware.radio.channel@1.0_vendor.so:system/vendor/lib/vendor.samsung.hardware.radio.channel@1.0_vendor.so \
     vendor/samsung/j7xelte/proprietary/vendor/lib/vendor.samsung.hardware.radio.secoemhook@1.0_vendor.so:system/vendor/lib/vendor.samsung.hardware.radio.secoemhook@1.0_vendor.so \
-    vendor/samsung/j7xelte/proprietary/vendor/lib/vendor.samsung.hardware.radio@1.1_vendor.so:system/vendor/lib/vendor.samsung.hardware.radio@1.1_vendor.so
+    vendor/samsung/j7xelte/proprietary/vendor/lib/vendor.samsung.hardware.radio@1.1_vendor.so:system/vendor/lib/vendor.samsung.hardware.radio@1.1_vendor.so \
+	vendor/samsung/j7xelte/proprietary/vendor/lib/hw/keystore.exynos7870.so:system/vendor/lib/hw/keystore.exynos7870.so \
+	vendor/samsung/j7xelte/proprietary/vendor/lib/hw/keystore.exynos7870.so:system/lib/hw/keystore.exynos7870.so
 
 # Create Mali links for Vulkan and OpenCL
 PRODUCT_PACKAGES += libGLES_mali
@@ -145,3 +140,18 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j7xelte/proprietary/lib/libaptX_encoder.so:system/lib/libaptX_encoder.so \
     vendor/samsung/j7xelte/proprietary/lib/libaptXHD_encoder.so:system/lib/libaptXHD_encoder.so \
     vendor/samsung/j7xelte/proprietary/lib/libldacBT_enc.so:system/lib/libldacBT_enc.so \
+
+# PIE GPS
+PRODUCT_COPY_FILES += \
+    vendor/samsung/j7xelte/proprietary/etc/gps_debug.conf:system/etc/gps_debug.conf \
+    vendor/samsung/j7xelte/proprietary/vendor/etc/gnss/gps.cer:system/vendor/etc/gnss/gps.cer \
+    vendor/samsung/j7xelte/proprietary/lib/android.hardware.gnss@1.0.so:system/lib/android.hardware.gnss@1.0.so \
+    vendor/samsung/j7xelte/proprietary/vendor/bin/hw/gpsd:system/vendor/bin/hw/gpsd \
+    vendor/samsung/j7xelte/proprietary/vendor/bin/hw/vendor.samsung.hardware.gnss@1.0-service:system/vendor/bin/hw/vendor.samsung.hardware.gnss@1.0-service \
+    vendor/samsung/j7xelte/proprietary/vendor/etc/gnss/ca.pem:system/vendor/etc/gnss/ca.pem \
+    vendor/samsung/j7xelte/proprietary/vendor/etc/gnss/gps.xml:system/vendor/etc/gnss/gps.xml \
+    vendor/samsung/j7xelte/proprietary/vendor/etc/init/vendor.samsung.hardware.gnss@1.0-service.rc:system/vendor/etc/init/vendor.samsung.hardware.gnss@1.0-service.rc \
+    vendor/samsung/j7xelte/proprietary/vendor/lib/hw/gps.default.so:system/vendor/lib/hw/gps.default.so \
+    vendor/samsung/j7xelte/proprietary/vendor/lib/hw/vendor.samsung.hardware.gnss@1.0-impl.so:system/vendor/lib/hw/vendor.samsung.hardware.gnss@1.0-impl.so \
+    vendor/samsung/j7xelte/proprietary/vendor/lib/libwrappergps.so:system/vendor/lib/libwrappergps.so \
+    vendor/samsung/j7xelte/proprietary/vendor/lib/vendor.samsung.hardware.gnss@1.0.so:system/vendor/lib/vendor.samsung.hardware.gnss@1.0.so
