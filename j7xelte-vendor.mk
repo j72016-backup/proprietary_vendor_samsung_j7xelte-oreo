@@ -1,4 +1,3 @@
-    
 # Copyright (C) 2018 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
@@ -112,8 +111,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j7xelte/proprietary/vendor/lib/vendor.samsung.hardware.radio.channel@1.0_vendor.so:system/vendor/lib/vendor.samsung.hardware.radio.channel@1.0_vendor.so \
     vendor/samsung/j7xelte/proprietary/vendor/lib/vendor.samsung.hardware.radio.secoemhook@1.0_vendor.so:system/vendor/lib/vendor.samsung.hardware.radio.secoemhook@1.0_vendor.so \
     vendor/samsung/j7xelte/proprietary/vendor/lib/vendor.samsung.hardware.radio@1.1_vendor.so:system/vendor/lib/vendor.samsung.hardware.radio@1.1_vendor.so \
-	vendor/samsung/j7xelte/proprietary/vendor/lib/hw/keystore.exynos7870.so:system/vendor/lib/hw/keystore.exynos7870.so \
-	vendor/samsung/j7xelte/proprietary/vendor/lib/hw/keystore.exynos7870.so:system/lib/hw/keystore.exynos7870.so
+    vendor/samsung/j7xelte/proprietary/vendor/lib/hw/keystore.exynos7870.so:system/vendor/lib/hw/keystore.exynos7870.so \
+    vendor/samsung/j7xelte/proprietary/vendor/lib/hw/keystore.exynos7870.so:system/lib/hw/keystore.exynos7870.so
 
 # Create Mali links for Vulkan and OpenCL
 PRODUCT_PACKAGES += libGLES_mali
@@ -139,7 +138,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/samsung/j7xelte/proprietary/lib/libaptX_encoder.so:system/lib/libaptX_encoder.so \
     vendor/samsung/j7xelte/proprietary/lib/libaptXHD_encoder.so:system/lib/libaptXHD_encoder.so \
-    vendor/samsung/j7xelte/proprietary/lib/libldacBT_enc.so:system/lib/libldacBT_enc.so \
+    vendor/samsung/j7xelte/proprietary/lib/libldacBT_enc.so:system/lib/libldacBT_enc.so
 
 # PIE GPS
 PRODUCT_COPY_FILES += \
