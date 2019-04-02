@@ -157,14 +157,10 @@ PRODUCT_COPY_FILES += \
 
 # NFC (CRL2)
 PRODUCT_COPY_FILES += \
-	vendor/samsung/j7xelte/proprietary/vendor/lib/hw/nfc_nci.default.so:system/vendor/lib/hw/nfc_nci.feault.so \
-    vendor/samsung/j7xelte/proprietary/etc/nfc/THL/sec_s3nrn80_rfreg.bin:system/etc/nfc/THL/sec_s3nrn80_rfreg.bin \
+    vendor/samsung/j7xelte/proprietary/vendor/lib/hw/nfc_nci.default.so:system/vendor/lib/hw/nfc_nci.feault.so \
     vendor/samsung/j7xelte/proprietary/etc/nfc/sec_s3nrn80_rfreg.bin:system/etc/nfc/sec_s3nrn80_rfreg.bin \
     vendor/samsung/j7xelte/proprietary/vendor/bin/hw/vendor.samsung.hardware.nfc@1.0-service:system/vendor/bin/hw/vendor.samsung.hardware.nfc@1.0-service \
     vendor/samsung/j7xelte/proprietary/vendor/etc/init/vendor.samsung.hardware.nfc@1.0-service.rc:system/vendor/etc/init/vendor.samsung.hardware.nfc@1.0-service.rc \
-    vendor/samsung/j7xelte/proprietary/vendor/etc/nfc/THL/sec_s3nrn80_rfreg.bin:system/vendor/etc/nfc/THL/sec_s3nrn80_rfreg.bin \
-    vendor/samsung/j7xelte/proprietary/vendor/etc/nfc/sec_s3nrn80_rfreg.bin:system/vendor/etc/nfc/sec_s3nrn80_rfreg.bin \
     vendor/samsung/j7xelte/proprietary/vendor/firmware/nfc/sec_s3nrn80_firmware.bin:system/vendor/firmware/nfc/sec_s3nrn80_firmware.bin \
-    vendor/samsung/j7xelte/proprietary/vendor/firmware/nfc/sec_s3nrn80_firmware.bin:system/vendor/firmware/sec_s3nrn80_firmware.bin \
     vendor/samsung/j7xelte/proprietary/vendor/lib/hw/vendor.samsung.hardware.nfc@1.0-impl.so:system/vendor/lib/hw/vendor.samsung.hardware.nfc@1.0-impl.so \
     vendor/samsung/j7xelte/proprietary/vendor/lib/vendor.samsung.hardware.nfc@1.0.so:system/vendor/lib/vendor.samsung.hardware.nfc@1.0.so
