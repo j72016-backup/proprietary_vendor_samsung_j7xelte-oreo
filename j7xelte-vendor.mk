@@ -77,6 +77,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j7xelte/proprietary/vendor/bin/mcDriverDaemon:system/vendor/bin/mcDriverDaemon \
     vendor/samsung/j7xelte/proprietary/etc/plmn_delta.bin:system/etc/plmn_delta.bin \
     vendor/samsung/j7xelte/proprietary/etc/plmn_delta_hktw.bin:system/etc/plmn_delta_hktw.bin \
+    vendor/samsung/j7xelte/proprietary/etc/plmn_delta_chn.bin:system/etc/plmn_delta_chn.bin \
     vendor/samsung/j7xelte/proprietary/etc/plmn_se13.bin:system/etc/plmn_se13.bin \
     vendor/samsung/j7xelte/proprietary/etc/wifi/bcmdhd_apsta.bin:system/etc/wifi/bcmdhd_apsta.bin \
     vendor/samsung/j7xelte/proprietary/etc/wifi/bcmdhd_mfg.bin:system/etc/wifi/bcmdhd_mfg.bin \
