@@ -29,7 +29,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j7xelte/proprietary/bin/srm.bin:system/bin/srm.bin \
     vendor/samsung/j7xelte/proprietary/lib/android.hardware.radio@1.1.so:system/lib/android.hardware.radio@1.1.so \
     vendor/samsung/j7xelte/proprietary/lib/android.hardware.radio@1.0.so:system/lib/android.hardware.radio@1.0.so \
-    vendor/samsung/j7xelte/proprietary/lib/hw/camera.vendor.universal7870.so:system/lib/hw/camera.vendor.universal7870.so \
+    vendor/samsung/j7xelte/proprietary/lib/hw/camera.universal7870.so:system/lib/hw/camera.universal7870.so \
     vendor/samsung/j7xelte/proprietary/lib/hw/gralloc.exynos5.so:system/lib/hw/gralloc.exynos5.so \
     vendor/samsung/j7xelte/proprietary/lib/libExynosOMX_Core.so:system/lib/libExynosOMX_Core.so \
     vendor/samsung/j7xelte/proprietary/lib/libExynosOMX_Resourcemanager.so:system/lib/libExynosOMX_Resourcemanager.so \
